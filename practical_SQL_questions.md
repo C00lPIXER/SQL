@@ -13,14 +13,39 @@
 2. **Insert Data**: Insert five records into the `Employees` table.
 
    ```
-   INSERT INTO Employees(EmployeeID, Name, Department, Salary) VALUES ('E01', 'AMAL KRISHNA', 'Development', 50000)
+   INSERT INTO Employees(EmployeeID, Name, Department, Salary) VALUES ('1', 'AMAL KRISHNA', 'Development', 50000)
    ```
 
 3. **Select Query**: Write a query to select all columns from the `Employees` table.
+
+   ```
+   SELECT * FROM Employees;
+   ```
+
 4. **Conditional Query**: Find employees with a salary greater than 50,000.
+
+   ```
+   SELECT * FROM Employees WHERE Salary > 50000;
+   ```
+
 5. **Update Data**: Update the salary of an employee with `EmployeeID = 3` to 60,000.
+
+   ```
+   UPDATE Employees SET Salary = 60000 WHERE EmployeeID = '3';
+   ```
+
 6. **Delete Data**: Delete the record of an employee with `EmployeeID = 5`.
+
+   ```
+   DELETE FROM Employees WHERE EmployeeID = '5';
+   ```
+
 7. **Aggregate Function**: Find the average salary of all employees.
+
+   ```
+   
+   ```
+
 8. **Order By Clause**: Display employees ordered by their salaries in descending order.
 9. **GROUP BY Clause**: Group employees by department and find the count of employees in each department.
 10. **HAVING Clause**: Show departments where the average salary exceeds 40,000.
