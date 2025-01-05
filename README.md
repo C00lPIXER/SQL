@@ -66,8 +66,6 @@
    
    ```
    
----
-
 ### **Intermediate SQL Questions (11-30)**
 
 11. **Primary Key**: Add a primary key to the `EmployeeID` column in the `Employees` table.
