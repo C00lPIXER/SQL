@@ -6,7 +6,7 @@
 
 1. **Create a Table**: Create a table `Employees` with columns `EmployeeID`, `Name`, `Department`, and `Salary`.
 
-   ```
+   ```javascript
    CREATE TABLE Employees 
    (EmployeeID VARCHAR(255), Name VARCHAR(255), Department    VARCHAR(255), Salary INT);
    ```
