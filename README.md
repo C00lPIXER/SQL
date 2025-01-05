@@ -45,7 +45,7 @@
    ```
    
    ```
-
+E
 8. **Order By Clause**: Display employees ordered by their salaries in descending order.
 9. **GROUP BY Clause**: Group employees by department and find the count of employees in each department.
 10. **HAVING Clause**: Show departments where the average salary exceeds 40,000.
