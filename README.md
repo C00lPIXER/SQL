@@ -66,7 +66,6 @@
    
    ```
    
-
 ---
 
 ### **Intermediate SQL Questions (11-30)**
